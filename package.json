@@ -1,0 +1,38 @@
+{
+  "name": "bitotsav_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.525.0",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.11.2",
+    "helmet": "^7.1.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^2.1.35",
+    "mongoose": "^6.12.7",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.11",
+    "qrcode": "^1.5.1",
+    "sharp": "^0.31.3",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
